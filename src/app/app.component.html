@@ -3,8 +3,34 @@
 <nav>
  <ul>
   <li>
+    <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+  </li>
+  <li>
     <a routerLink="/servizi-component" routerLinkActive="active" ariaCurrentWhenActive="page">Servizi</a>
   </li>
  </ul>
 </nav>
+<mat-card-title>Una semplice card</mat-card-title>
+<mat-card-content>Un contenuto per la card. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim omnis placeat, quaerat odio incidunt aut porro possimus facere molestiae harum quidem illo sunt nisi iste magnam voluptate explicabo, deleniti labore.</mat-card-content>
+<mat-card class="dog-card">
+  <mat-card-header>
+    <div mat-card-avatar class="dog-header-image"></div>
+    <mat-card-title>Shiba Inu</mat-card-title>
+    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+      bred for hunting.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>MI PIACE</button>
+    <button mat-button>CONDIVIDI</button>
+  </mat-card-actions>
+</mat-card>
+<mat-slider min="1" max="100" step="1" value="50"></mat-slider>
+<app-footer></app-footer>
 <router-outlet></router-outlet>
