@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "users-manager-e0be5": {
+      "hosting": {
+        "crud-api-rest": [
+          "users-manager-e0be5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "users-manager-e0be5"
+  }
+}

@@ -3,6 +3,10 @@
 <nav>
  <ul>
   <li>
+    <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Link Principale</a>
+  </li>
+
+  <li>
     <a routerLink="/home-component" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
   </li>
   <li>
@@ -11,8 +15,15 @@
   <li>
     <a routerLink="/contatti-component" routerLinkActive="active" ariaCurrentWhenActive="page">Contatti</a>
   </li>
+  <li>
+    <a routerLink="./component/login-component" routerLinkActive="active" ariaCurrentWhenActive="page">Login</a>
+  </li>
+  <li>
+    <a routerLink="./component/register/register.component.html" routerLinkActive="active">Register</a>
+  </li>
  </ul>
 </nav>
-<app-footer></app-footer>
 
-<router-outlet></router-outlet>
+<app-footer></app-footer>
+<router-outlet>
+</router-outlet>
