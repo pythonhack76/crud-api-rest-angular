@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Ubuntu:wght@300;400&display=swap');
+
 html,
 body {
   margin: 0;
@@ -38,4 +42,4 @@ main {
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'Ubuntu', sans-serif !important; }

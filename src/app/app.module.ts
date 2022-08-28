@@ -23,6 +23,7 @@ import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { AUTH_PROVIDER_NAME } from '@angular/fire/auth/auth';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { AUTH_PROVIDER_NAME } from '@angular/fire/auth/auth';
     HomeComponent,
     LoginComponent,
     RegisterComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeaderComponent
     
   ],
   imports: [

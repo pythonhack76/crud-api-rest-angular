@@ -10,3 +10,7 @@ li {
     display:inline-block;
     align-self:baseline;
 }
+
+.logo-title {
+    padding: 20px;
+}
