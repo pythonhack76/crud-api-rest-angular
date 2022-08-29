@@ -4,7 +4,7 @@
 
 export const environment = {
   firebase: {
-   
+   //qui dovrete inserire i dati di connessione al vostro firebase!
   },
   production: false
 };
