@@ -1,0 +1,88 @@
+{
+    "contacts": [
+        {
+            "id": "000aq2211",
+            "name": "Brin",
+            "company": "Google",
+            "email": "sergey@gmail.com",
+            "title": "Developer",
+            "mobile": "38483234",
+            "photo": "",
+            "groupId": 3
+        },
+        {
+            "id": "000aq2211",
+            "name": "Segek",
+            "company": "Microsoft",
+            "email": "sehgek@gmail.com",
+            "title": "Developer",
+            "mobile": "789798655",
+            "photo": "",
+            "groupId": 2
+        },
+        {
+            "id": "000aq2211",
+            "name": "Brin",
+            "company": "Google",
+            "email": "sergey@gmail.com",
+            "title": "Developer",
+            "mobile": "38483234",
+            "photo": "",
+            "groupId": 3
+        },
+        {
+            "id": "000aq2211",
+            "name": "Brin",
+            "company": "Google",
+            "email": "sergey@gmail.com",
+            "title": "Developer",
+            "mobile": "38483234",
+            "photo": "",
+            "groupId": 3
+        },
+        {
+            "id": "000aq2211",
+            "name": "Brin",
+            "company": "Google",
+            "email": "sergey@gmail.com",
+            "title": "Developer",
+            "mobile": "38483234",
+            "photo": "",
+            "groupId": 3
+        },
+        {
+            "id": "000aq2211",
+            "name": "Brin",
+            "company": "Google",
+            "email": "sergey@gmail.com",
+            "title": "Developer",
+            "mobile": "38483234",
+            "photo": "",
+            "groupId": 3
+        },
+        {
+            "id": "000aq2211",
+            "name": "Brin",
+            "company": "Google",
+            "email": "sergey@gmail.com",
+            "title": "Developer",
+            "mobile": "38483234",
+            "photo": "",
+            "groupId": 3
+        }
+    ],
+    "groups": [
+        {
+            "id": "1",
+            "name": "Italiane"
+        },
+        {
+            "id": "2",
+            "name": "Tedesche"
+        },
+        {
+            "id": "3",
+            "name": "Inglesi"
+        }
+    ]
+}

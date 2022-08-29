@@ -1,29 +1,5 @@
 <!-- configurazione della home -->
-<i class="fa fa-home fa-2x text-bg-danger"><h3 class="logo-title">Collegami</h3></i>
-<nav>
- <ul>
-  <li>
-    <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Link Principale</a>
-  </li>
 
-  <li>
-    <a routerLink="/home-component" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
-  </li>
-  <li>
-    <a routerLink="/servizi-component" routerLinkActive="active" ariaCurrentWhenActive="page">Servizi</a>
-  </li>
-  <li>
-    <a routerLink="/contatti-component" routerLinkActive="active" ariaCurrentWhenActive="page">Contatti</a>
-  </li>
-  <li>
-    <a routerLink="./component/login-component" routerLinkActive="active" ariaCurrentWhenActive="page">Login</a>
-  </li>
-  <li>
-    <a routerLink="/register-component" routerLinkActive="active" ariaCurrentWhenActive="page">Register</a>
-  </li>
- </ul>
-</nav>
-
+<app-navbar></app-navbar>
 <app-footer></app-footer>
-<router-outlet>
-</router-outlet>
+<router-outlet></router-outlet>

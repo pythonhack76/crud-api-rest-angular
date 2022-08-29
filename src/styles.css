@@ -5,6 +5,7 @@
 
 html,
 body {
+  background-color: #fcebe7 !important;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -28,6 +29,23 @@ main {
   padding-right: 100px;
   padding-bottom: 60px;
 }
+
+.contact-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 150px; 
+
+}
+
+.contact-img-big {
+
+width: 200px;
+border-radius: 50%;
+margin-right: 150px; 
+
+}
+
+
 
 
 

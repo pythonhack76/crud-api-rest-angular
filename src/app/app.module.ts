@@ -24,6 +24,14 @@ import { RegisterComponent } from './component/register/register.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { AUTH_PROVIDER_NAME } from '@angular/fire/auth/auth';
 import { HeaderComponent } from './header/header.component';
+import { NavbarComponent } from './component/navbar/navbar.component';
+import { ContactManagerComponent } from './component/contact-manager/contact-manager.component';
+import { AddContactComponent } from './component/add-contact/add-contact.component';
+import { EditContactComponent } from './component/edit-contact/edit-contact.component';
+import { SpinnerComponent } from './component/spinner/spinner.component';
+import { ViewContactComponent } from './component/view-contact/view-contact.component';
+import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -35,7 +43,14 @@ import { HeaderComponent } from './header/header.component';
     LoginComponent,
     RegisterComponent,
     DashboardComponent,
-    HeaderComponent
+    HeaderComponent,
+    NavbarComponent,
+    ContactManagerComponent,
+    AddContactComponent,
+    EditContactComponent,
+    SpinnerComponent,
+    ViewContactComponent,
+    PageNotFoundComponent
     
   ],
   imports: [
@@ -49,6 +64,7 @@ import { HeaderComponent } from './header/header.component';
     ReactiveFormsModule,
     MatButtonModule,
     RouterModule,
+    HttpClientModule,
     
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
